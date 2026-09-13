@@ -1,0 +1,14 @@
+# UNKNOWN / MISSING / NULL
+
+UNKNOWN：系统知道存在一个问题，但不知道值。
+MISSING：预期对象尚未提供。
+NULL：该字段合法地没有值。
+NOT_APPLICABLE：该字段不适用于对象。
+CONFLICTED：存在多个互斥候选。
+UNVERIFIED：已有候选但没有证据。
+
+严禁：
+UNKNOWN = NULL
+MISSING = EMPTY
+UNVERIFIED = TRUE
+MODEL_GUESS = CANON

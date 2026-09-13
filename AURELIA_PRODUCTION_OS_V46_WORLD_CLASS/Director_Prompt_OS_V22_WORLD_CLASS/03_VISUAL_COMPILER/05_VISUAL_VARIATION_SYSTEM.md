@@ -1,0 +1,11 @@
+# VISUAL VARIATION
+
+长期 IP 必须同时解决：
+IDENTITY STABILITY
++
+VISUAL FRESHNESS
+
+建议作为策略参数，而非硬编码：
+STABILITY / VARIATION / BREAKTHROUGH
+
+重大视觉突破必须绑定剧情/世界状态事件，不能随机发生。

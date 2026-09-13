@@ -1,0 +1,33 @@
+{
+  "version": "V33",
+  "base": "V31",
+  "target": "World-Class Animation Creative Production OS",
+  "java": "DEFERRED",
+  "modules": [
+    "56_CREATIVE_DECISION_ENGINE",
+    "57_NARRATIVE_SEARCH_AND_PLANNING",
+    "58_CAUSAL_GRAPH_AND_COUNTERFACTUALS",
+    "59_PSYCHOLOGICAL_CONTINUITY",
+    "60_SEQUENCE_COMPOSITION",
+    "61_VISUAL_IDENTITY_AND_CONTINUITY_GRAPH",
+    "62_ASSET_INTELLIGENCE",
+    "63_MODEL_FAILURE_AND_RECOVERY",
+    "64_MULTI_AGENT_DIRECTOR_ROOM",
+    "65_LONGFORM_STATE_COMPRESSION",
+    "66_PRODUCTION_PACKAGE_V33",
+    "67_V33_GOVERNANCE_AND_ACCEPTANCE",
+    "68_V33_MASTER_PROMPTS",
+    "69_SCHEMAS_V33",
+    "70_JAVA_HANDOFF_V33",
+    "71_V33_CERTIFICATION"
+  ],
+  "principles": [
+    "truth before novelty",
+    "causality before coincidence",
+    "character choice before plot convenience",
+    "performance before prompt",
+    "continuity before decoration",
+    "evidence before confidence",
+    "future option value over greedy local optimization"
+  ]
+}

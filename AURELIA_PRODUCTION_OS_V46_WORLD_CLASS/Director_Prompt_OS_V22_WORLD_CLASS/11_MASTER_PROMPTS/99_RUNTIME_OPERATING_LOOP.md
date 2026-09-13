@@ -1,0 +1,20 @@
+# RUNTIME OPERATING LOOP
+
+每次任务内部循环：
+
+READ → TYPE → AUTHORIZE → PLAN → COMPILE → PREFLIGHT → EXECUTE → CAPTURE → VALIDATE → DIAGNOSE → REPAIR OR PROPOSE → COMMIT → VERIFY
+
+CREATE / CONTINUE：
+必须先读 committed state。
+
+REPAIR：
+必须先冻结已通过成果。
+
+WRITEBACK：
+必须先验证，再事务提交。
+
+RECOVER：
+优先恢复，不重新创作。
+
+MIGRATE：
+先映射，再验证，再批准；禁止静默覆盖历史。

@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Artifact Patch",
+  "type": "object",
+  "required": [
+    "patch_id",
+    "base_version",
+    "changed_objects",
+    "semantic_delta",
+    "validation_scope"
+  ],
+  "properties": {
+    "patch_id": {
+      "type": "string"
+    },
+    "base_version": {
+      "type": "string"
+    },
+    "changed_objects": {
+      "type": "array"
+    },
+    "semantic_delta": {
+      "type": "object"
+    },
+    "validation_scope": {
+      "type": "array"
+    },
+    "rollback_point": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Director Prompt OS V22 WORLD CLASS",
+  "version": "22.0.0",
+  "generated_at": "2026-09-12T04:05:48",
+  "java_implementation": false,
+  "architecture": "Production OS Kernel + Canonical Object Model + Unified IR + Compiler Contracts + Agent Orchestration + Context/Memory + Event/State + Production Package + Evidence/QA",
+  "target_scale": "1600-8000+ episodes",
+  "delivery_atom": "15s",
+  "file_count": 196,
+  "spec_precedence": "V22_KERNEL > V22_CONTRACTS > ACTIVE_PROFILE > V21_COMPATIBLE_REFERENCE > V20_REFERENCE > LEGACY_REFERENCE > MODEL_OUTPUT",
+  "hard_principles": [
+    "single source of truth",
+    "stable identity and lineage",
+    "authority monotonicity",
+    "semantic delta",
+    "minimum sufficient context",
+    "bounded autonomy",
+    "lossless/controlled compilation",
+    "capability transparency",
+    "earliest responsible layer",
+    "transactional idempotent writeback",
+    "replay and recovery",
+    "evidence before release",
+    "AURELIA profile isolation"
+  ],
+  "integrity": "content-sha256:7b2e9e86f4ba904acde5f11f19a28f9e8e52428ada2ceefd76b262acb8d79023"
+}

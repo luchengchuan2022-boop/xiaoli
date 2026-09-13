@@ -1,0 +1,11 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"CreativeCandidateV29",
+  "type":"object",
+  "required":["candidate_id","source_intent","hard_constraint_status","objective_vector","semantic_delta"],
+  "properties":{
+    "candidate_id":{"type":"string"},"source_intent":{"type":"string"},
+    "hard_constraint_status":{"enum":["PASS","FAIL","UNKNOWN"]},
+    "objective_vector":{"type":"object"},"semantic_delta":{"type":"object"}
+  }
+}

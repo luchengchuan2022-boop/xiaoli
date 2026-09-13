@@ -1,0 +1,1 @@
+{"type":"ReplayContractV42","required":["run_id","input_versions","context_hash","decision_ids","compiler_version","adapter_version","observations","evidence","expected_invariants"]}

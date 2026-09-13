@@ -1,0 +1,10 @@
+{
+  "name": "Director Prompt OS V21 WORLD CLASS",
+  "version": "21.0.0",
+  "java_source_files": 0,
+  "design_goal": "World-class prompt animation Production OS specification layer",
+  "episode_scale": "1600-8000+",
+  "delivery_atom": "15s",
+  "precedence": "V21_KERNEL > V21_CONTRACTS > V21_PROFILE > V20_REFERENCE > LEGACY_REFERENCE",
+  "integrity": "sha256:827064b71a7b3b26433eae810d921f1b1fb9dae245f08f0a15a4579350735fac"
+}

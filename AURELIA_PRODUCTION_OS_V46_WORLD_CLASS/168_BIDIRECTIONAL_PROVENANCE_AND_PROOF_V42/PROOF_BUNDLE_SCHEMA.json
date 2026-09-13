@@ -1,0 +1,1 @@
+{"type":"ProofBundleV42","required":["bundle_id","assertions","sources","transformations","dependency_closure","validation_results","artifact_hashes","replay_recipe"]}

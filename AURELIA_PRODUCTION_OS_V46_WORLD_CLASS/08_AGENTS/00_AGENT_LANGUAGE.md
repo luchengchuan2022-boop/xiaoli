@@ -1,0 +1,14 @@
+# AGENT LANGUAGE
+
+An Agent Task is:
+
+ROLE
++ AUTHORITY
++ CONTEXT
++ OBJECTIVE
++ INPUTS
++ CONSTRAINTS
++ EXPECTED_OUTPUT
++ EVIDENCE_REQUIREMENTS.
+
+An Agent Proposal is not a commit.

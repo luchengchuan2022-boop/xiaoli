@@ -1,0 +1,16 @@
+# AUDIT TRAIL
+
+每次重要改变记录：
+WHO
+WHAT
+WHY
+WHEN
+FROM
+TO
+AUTHORITY
+EVIDENCE
+SEMANTIC DELTA
+IMPACT
+ROLLBACK
+
+AI 生成“解释”不能代替系统真实 Audit Trail。

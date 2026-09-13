@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "v24/ContextPacket",
+  "type": "object",
+  "required": [
+    "packet_id",
+    "task_id",
+    "snapshot_ref",
+    "items"
+  ],
+  "properties": {
+    "packet_id": {
+      "type": "string"
+    },
+    "task_id": {
+      "type": "string"
+    },
+    "snapshot_ref": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array"
+    },
+    "completeness": {
+      "type": "string"
+    },
+    "retrieval_policy": {
+      "type": "object"
+    }
+  }
+}

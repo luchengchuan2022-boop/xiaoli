@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CreativeEventV41",
+  "type": "object",
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "aggregate_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "prior_version": {
+      "type": "integer"
+    },
+    "resulting_version": {
+      "type": "integer"
+    },
+    "semantic_delta": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "evidence_refs": {
+      "type": "array"
+    },
+    "idempotency_key": {
+      "type": "string"
+    },
+    "hash": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

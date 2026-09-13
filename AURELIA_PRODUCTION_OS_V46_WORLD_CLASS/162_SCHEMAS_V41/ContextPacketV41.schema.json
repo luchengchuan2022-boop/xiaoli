@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ContextPacketV41",
+  "type": "object",
+  "properties": {
+    "task_contract": {
+      "type": "object"
+    },
+    "required_claims": {
+      "type": "array"
+    },
+    "dependency_closure": {
+      "type": "array"
+    },
+    "included_refs": {
+      "type": "array"
+    },
+    "excluded_refs": {
+      "type": "array"
+    },
+    "uncertainties": {
+      "type": "array"
+    },
+    "context_hash": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

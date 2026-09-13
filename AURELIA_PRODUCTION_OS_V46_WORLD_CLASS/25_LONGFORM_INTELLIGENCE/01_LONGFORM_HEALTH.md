@@ -1,0 +1,5 @@
+# LONGFORM HEALTH
+
+Track `CHARACTER / RELATIONSHIP / WORLD / CAUSALITY / INFORMATION / FORESHADOW / PAYOFF / CONTINUITY / NOVELTY / REPETITION / LORE_DEBT / CONTINUITY_DEBT`.
+
+A rising episode count is never a substitute for narrative health.

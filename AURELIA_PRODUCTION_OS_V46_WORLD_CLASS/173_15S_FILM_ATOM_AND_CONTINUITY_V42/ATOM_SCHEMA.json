@@ -1,0 +1,1 @@
+{"type":"ProductionAtomV42","required":["atom_id","episode_id","start_state","purpose","beats","audience_state","shots","keyframes","image_prompts","video_prompt","audio","end_state","continuity_locks","qa","evidence","manifest"],"duration_seconds":15.0}

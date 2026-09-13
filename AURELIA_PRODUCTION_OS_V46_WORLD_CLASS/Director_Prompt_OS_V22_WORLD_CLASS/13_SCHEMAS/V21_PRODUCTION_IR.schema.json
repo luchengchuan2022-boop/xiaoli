@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"V21 Production IR","type":"object","required":["ir_id","version","shots"],"properties":{"ir_id":{"type":"string"},"version":{"type":"string"},"shots":{"type":"array"},"continuity_locks":{"type":"array"},"constraints":{"type":"array"},"provenance":{"type":"array"}}}

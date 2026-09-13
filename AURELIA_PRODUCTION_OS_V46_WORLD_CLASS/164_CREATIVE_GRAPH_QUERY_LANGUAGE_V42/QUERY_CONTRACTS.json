@@ -1,0 +1,6 @@
+{
+  "version":"42",
+  "operations":["GET_STATE","TRACE_UPSTREAM","TRACE_DOWNSTREAM","IMPACT","DEPENDENCY_CLOSURE","FIND_CONFLICTS","FIND_PROMISES","FIND_DEBTS","FIND_KNOWLEDGE_GAPS","FIND_CONTINUITY_LOCKS","COMPARE_VERSIONS","FORECAST","BUILD_CONTEXT"],
+  "write_default":false,
+  "required_metadata":["scope","authority","temporal_horizon","provenance","query_hash"]
+}

@@ -1,0 +1,8 @@
+# Operational State Machine
+
+Task lifecycle:
+`RECEIVED → TYPED → AUTHORIZED → CONTEXT_READY → PLANNED → COMPILED → VALIDATED → EXECUTED → OBSERVED → EVIDENCE_READY → COMMIT_READY → COMMITTED → RELEASED`
+
+Failure states are explicit: `BLOCKED`, `CONFLICTED`, `CAPABILITY_GAP`, `VALIDATION_FAILED`, `RECOVERY_REQUIRED`, `ABORTED`.
+
+No stage may imply completion of a later stage.

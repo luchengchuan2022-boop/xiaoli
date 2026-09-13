@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CreativeObjectV41",
+  "type": "object",
+  "properties": {
+    "object_id": {
+      "type": "string"
+    },
+    "object_type": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "valid_from": {
+      "type": "string"
+    },
+    "valid_to": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_refs": {
+      "type": "array"
+    },
+    "dependency_refs": {
+      "type": "array"
+    },
+    "semantic_hash": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

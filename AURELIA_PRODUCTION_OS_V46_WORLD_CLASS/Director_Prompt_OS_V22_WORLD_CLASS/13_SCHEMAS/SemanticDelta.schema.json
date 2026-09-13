@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "required": [
+    "delta_id",
+    "preserved",
+    "added",
+    "removed",
+    "reinterpreted",
+    "risk",
+    "authorization"
+  ],
+  "properties": {
+    "delta_id": {
+      "type": "string"
+    },
+    "preserved": {
+      "type": "array"
+    },
+    "added": {
+      "type": "array"
+    },
+    "removed": {
+      "type": "array"
+    },
+    "reinterpreted": {
+      "type": "array"
+    },
+    "risk": {
+      "type": "array"
+    },
+    "authorization": {
+      "type": "string"
+    }
+  }
+}

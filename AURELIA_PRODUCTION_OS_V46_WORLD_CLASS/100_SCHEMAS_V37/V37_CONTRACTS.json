@@ -1,0 +1,232 @@
+{
+  "version": "V37",
+  "status": "DESIGNED_FOR_WORLD_CLASS_VALIDATION",
+  "supersedes": "V36 additive semantic layer; inherited V23-V36 contracts remain unless explicitly superseded",
+  "contracts": [
+    {
+      "name": "MetaDecisionV37",
+      "required": [
+        "decision_id",
+        "question",
+        "frozen_context_hash",
+        "authority_refs",
+        "state_refs",
+        "hard_constraints",
+        "protected_semantics",
+        "unknowns",
+        "candidates",
+        "forecast",
+        "option_value",
+        "reversibility",
+        "blast_radius",
+        "selection",
+        "rejected_candidates",
+        "audit_refs",
+        "provenance"
+      ]
+    },
+    {
+      "name": "NarrativeDigitalTwinViewV37",
+      "required": [
+        "view_id",
+        "context_hash",
+        "world_state",
+        "character_state",
+        "relationship_state",
+        "knowledge_state",
+        "promise_debt",
+        "audience_state",
+        "visual_continuity",
+        "dependencies",
+        "provenance"
+      ]
+    },
+    {
+      "name": "StoryGenomeV37",
+      "required": [
+        "genome_id",
+        "theme",
+        "central_questions",
+        "character_dna",
+        "relationship_dna",
+        "world_rules",
+        "motifs",
+        "visual_grammar",
+        "emotional_signature",
+        "promises",
+        "evolution_class",
+        "provenance"
+      ]
+    },
+    {
+      "name": "CharacterArcTransitionV37",
+      "required": [
+        "transition_id",
+        "character_id",
+        "pre_state",
+        "pressure",
+        "knowledge",
+        "choice",
+        "consequence",
+        "post_state",
+        "change_class",
+        "evidence_refs",
+        "earnedness",
+        "provenance"
+      ]
+    },
+    {
+      "name": "WorldRuleImpactV37",
+      "required": [
+        "impact_id",
+        "rule_id",
+        "authority",
+        "scope",
+        "preconditions",
+        "effects",
+        "exceptions",
+        "dependencies",
+        "blast_radius",
+        "migration",
+        "evidence_refs"
+      ]
+    },
+    {
+      "name": "PromiseDebtItemV37",
+      "required": [
+        "item_id",
+        "type",
+        "created_at_state",
+        "source",
+        "expectation",
+        "pressure",
+        "eligibility",
+        "lifecycle",
+        "payoff_or_transform",
+        "provenance"
+      ]
+    },
+    {
+      "name": "CreativeRegressionV37",
+      "required": [
+        "comparison_id",
+        "baseline",
+        "candidate",
+        "frozen_scenario",
+        "dimensions",
+        "hard_regressions",
+        "soft_regressions",
+        "evidence",
+        "decision"
+      ]
+    },
+    {
+      "name": "ProductionCompilationV37",
+      "required": [
+        "compile_id",
+        "input_refs",
+        "context_hash",
+        "cinematic_intent",
+        "shot_ast",
+        "keyframe_ast",
+        "image_prompts",
+        "video_prompt",
+        "audio",
+        "continuity",
+        "transform_log",
+        "validation",
+        "manifest"
+      ]
+    },
+    {
+      "name": "ModelCapabilityNegotiationV37",
+      "required": [
+        "task_requirements",
+        "capability_requirements",
+        "model_profile",
+        "gaps",
+        "adapter_plan",
+        "execution_policy",
+        "observation"
+      ]
+    },
+    {
+      "name": "ReviewBoardDecisionV37",
+      "required": [
+        "review_id",
+        "frozen_context_hash",
+        "question",
+        "review_seats",
+        "evidence",
+        "conflicts",
+        "arbitration",
+        "decision",
+        "dissent"
+      ]
+    },
+    {
+      "name": "LongHorizonForecastV37",
+      "required": [
+        "forecast_id",
+        "horizon",
+        "assumptions",
+        "candidates",
+        "future_value",
+        "option_value",
+        "risks",
+        "confidence",
+        "non_truth_status"
+      ]
+    },
+    {
+      "name": "RiskAssessmentV37",
+      "required": [
+        "risk_id",
+        "class",
+        "uncertainty_state",
+        "impact",
+        "likelihood",
+        "evidence",
+        "treatment",
+        "blocking"
+      ]
+    },
+    {
+      "name": "ProductionAtomV37",
+      "required": [
+        "atom_id",
+        "source",
+        "start_state",
+        "purpose",
+        "expectation",
+        "beat",
+        "character_choice",
+        "relationship_delta",
+        "emotional_trajectory",
+        "shots",
+        "keyframes",
+        "image_prompts",
+        "negative_constraints",
+        "video_prompt",
+        "audio",
+        "end_state",
+        "continuity",
+        "qa",
+        "evidence",
+        "manifest"
+      ]
+    }
+  ],
+  "invariants": [
+    "TRUTH > AUTHORITY > STATE > CAUSALITY > CHARACTER > RELATIONSHIP > AUDIENCE > DRAMA > CINEMA > MODEL > NOVELTY",
+    "FORECAST != TRUTH",
+    "MODEL_OUTPUT != CANON",
+    "PROMPT != CINEMATIC_INTENT",
+    "END_STATE = START_STATE + AUTHORIZED_DELTA",
+    "15S_TOTAL_DURATION = 15.00 seconds unless contract explicitly overrides",
+    "UNKNOWN != KNOWN",
+    "EVERY_MATERIAL_DELTA_REQUIRES_AUTHORIZATION",
+    "EVERY_ACCEPTED_DECISION_REQUIRES_EVIDENCE",
+    "EVERY_REPAIR_MUST_TRACE_TO_EARLIEST_RESPONSIBLE_LAYER"
+  ]
+}

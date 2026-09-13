@@ -1,0 +1,19 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"V22 Task Contract",
+  "type":"object",
+  "required":["task_id","mode","input_refs","authority_scope","outputs","failure_policy","commit_policy"],
+  "properties":{
+    "task_id":{"type":"string"},
+    "mode":{"type":"string"},
+    "input_refs":{"type":"array","items":{"type":"string"}},
+    "authority_scope":{"type":"object"},
+    "allowed_mutations":{"type":"array","items":{"type":"string"}},
+    "forbidden_mutations":{"type":"array","items":{"type":"string"}},
+    "outputs":{"type":"array","items":{"type":"string"}},
+    "failure_policy":{"type":"string"},
+    "commit_policy":{"type":"string"},
+    "context_packet_id":{"type":["string","null"]}
+  },
+  "additionalProperties":true
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CPL Object",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "version",
+    "status",
+    "authority",
+    "provenance",
+    "semantic_hash"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "semantic_hash": {
+      "type": "string"
+    },
+    "parent_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependency_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

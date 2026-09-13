@@ -1,0 +1,10 @@
+# 15s Atom Contract
+
+Hard duration: exactly `15.00s` total, with shot durations summing to 15.00s.
+
+Required sections:
+`SOURCE / TRUTH / START_STATE / PURPOSE / EXPECTATION / BEAT / CHOICE / RELATIONSHIP_DELTA / EMOTIONAL_TRAJECTORY / ATTENTION / PERFORMANCE / MICRO_PERFORMANCE / STAGING / SHOTS / KEYFRAMES / IMAGE_PROMPTS / NEGATIVE_CONSTRAINTS / VIDEO_PROMPT / AUDIO / END_STATE / CONTINUITY / ASSETS / RISKS / QA / EVIDENCE / MANIFEST`.
+
+`END_STATE = START_STATE + AUTHORIZED_DELTA`.
+
+A beautiful package with no meaningful state or dramatic function fails.

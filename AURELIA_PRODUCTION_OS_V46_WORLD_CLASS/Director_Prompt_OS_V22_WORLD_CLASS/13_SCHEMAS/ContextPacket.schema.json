@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Context Packet",
+  "type": "object",
+  "required": [
+    "task_id",
+    "purpose",
+    "sources",
+    "relevance_rules",
+    "budget"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array"
+    },
+    "relevance_rules": {
+      "type": "array"
+    },
+    "budget": {
+      "type": "object"
+    },
+    "excluded_context": {
+      "type": "array"
+    }
+  }
+}

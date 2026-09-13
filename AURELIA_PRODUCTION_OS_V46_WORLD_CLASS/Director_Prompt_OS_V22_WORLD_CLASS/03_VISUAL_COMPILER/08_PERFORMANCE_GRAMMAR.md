@@ -1,0 +1,18 @@
+# PERFORMANCE GRAMMAR
+
+动画表演至少拆成：
+POSTURE
+WEIGHT
+BREATH
+EYE_DIRECTION
+BLINK
+FACIAL_TENSION
+HAND_ACTION
+HEAD_TILT
+PAUSE
+REACTION_DELAY
+RECOVERY
+
+微表演不是装饰。
+它必须体现：
+emotion / intention / relationship / information state。

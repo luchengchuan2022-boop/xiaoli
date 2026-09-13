@@ -1,0 +1,4 @@
+# V46 Java Boundary
+Java is deferred. Later Java must faithfully implement: CreativeObjectRegistry, EventStore, StateProjector, GraphStore, QueryEngine, ContextCompiler, ExecutionEngine, DecisionRegistry, TransitionEngine, ChangeControl, NarrativeHealth, CharacterRuntime, RelationshipRuntime, WorldRuleEngine, AudienceRuntime, CinematicCompiler, PromptCompiler, ModelAdapter, ObservationStore, EvidenceStore, ProofEngine, ManifestBuilder, RegressionEngine, ReplayEngine, TransactionCoordinator.
+Forbidden: hidden creative rules in UI/controllers; model->Canon writes; second truth store; mutable committed history; silent semantic fallback; natural-language heuristics overriding contracts.
+All boundaries use versioned typed schemas, semantic hashes, provenance and idempotency. Every committed event is replayable.

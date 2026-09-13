@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "v24/Event",
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "actor",
+    "payload"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "aggregate_ref": {
+      "type": "string"
+    },
+    "expected_revision": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "actor": {
+      "type": "string"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "causation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "correlation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+# AUTHORIZATION MATRIX
+
+READ：读取事实。
+PROPOSE：提出改变。
+COMPILE：表达既有意义。
+EXECUTE：调用模型/工具。
+WRITE：写入暂存区。
+COMMIT：改变已提交状态。
+RELEASE：对外发布。
+
+AI 默认拥有：
+READ + PROPOSE + COMPILE + EXECUTE + WRITE
+
+AI 不因“自主模式”自动获得：
+CANON COMMIT / STATE COMMIT / RELEASE
+
+高风险变更必须升级授权。

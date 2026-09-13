@@ -1,0 +1,1 @@
+{"type":"ContextManifestV42","required":["context_id","task_contract","claim_ids","dependency_closure","authority_map","knowledge_firewall","temporal_scope","continuity_locks","compression_log","context_hash"]}

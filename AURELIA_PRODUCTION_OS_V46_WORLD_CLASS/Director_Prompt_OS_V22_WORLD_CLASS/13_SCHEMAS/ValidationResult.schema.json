@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Validation Result",
+  "type": "object",
+  "required": [
+    "validation_id",
+    "target_id",
+    "status",
+    "gates",
+    "evidence"
+  ],
+  "properties": {
+    "validation_id": {
+      "type": "string"
+    },
+    "target_id": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "PASS",
+        "FAIL",
+        "REVIEW_REQUIRED",
+        "UNKNOWN"
+      ]
+    },
+    "gates": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "failure_layer": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "v24/ProductionPackage",
+  "type": "object",
+  "required": [
+    "package_id",
+    "release_id",
+    "artifacts",
+    "dependencies",
+    "evidence",
+    "validation"
+  ],
+  "properties": {
+    "package_id": {
+      "type": "string"
+    },
+    "release_id": {
+      "type": "string"
+    },
+    "artifacts": {
+      "type": "array"
+    },
+    "dependencies": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "validation": {
+      "type": "object"
+    }
+  }
+}

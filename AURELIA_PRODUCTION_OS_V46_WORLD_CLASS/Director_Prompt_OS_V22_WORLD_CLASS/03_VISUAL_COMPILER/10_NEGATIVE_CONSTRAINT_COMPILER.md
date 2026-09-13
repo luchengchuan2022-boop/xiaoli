@@ -1,0 +1,18 @@
+# NEGATIVE CONSTRAINT COMPILER
+
+负面 Prompt 必须来自实际风险。
+
+分类：
+IDENTITY
+ANATOMY
+MOTION
+CAMERA
+LIGHT
+BACKGROUND
+COSTUME
+CONTINUITY
+STYLE
+MODEL_FAILURE
+
+禁止堆几百个无关 negative tokens。
+Negative 必须有责任来源。

@@ -1,0 +1,8 @@
+# V30 RELEASE MANIFEST
+
+ROOT: Director_Prompt_OS_V30_WORLD_CLASS
+PARENT: V29
+JAVA: CONTRACT-ONLY / NOT IMPLEMENTED
+NEW DIRECTORIES:
+
+QUALITY PRINCIPLE: critical gates > average score > document volume

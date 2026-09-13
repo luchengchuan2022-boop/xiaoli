@@ -1,0 +1,8 @@
+# V28 WORLD-CLASS REVIEW
+
+Review across:
+
+TRUTH / CHARACTER / CAUSALITY / RELATIONSHIP / INFORMATION / DRAMA / CINEMA / PERFORMANCE / VISUAL IDENTITY / CONTINUITY / PRODUCTION / MODEL CAPABILITY / EVIDENCE / RELIABILITY.
+
+Critical failure = FAIL.
+A high average score cannot compensate for a protected-dimension failure.

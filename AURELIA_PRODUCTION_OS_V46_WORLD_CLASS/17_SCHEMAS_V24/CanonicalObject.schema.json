@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "v24/CanonicalObject",
+  "type": "object",
+  "required": [
+    "object_id",
+    "object_type",
+    "revision",
+    "authority",
+    "lifecycle_status",
+    "provenance",
+    "payload"
+  ],
+  "properties": {
+    "object_id": {
+      "type": "string"
+    },
+    "object_type": {
+      "type": "string"
+    },
+    "namespace": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "authority": {
+      "type": "string"
+    },
+    "lifecycle_status": {
+      "type": "string"
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "semantic_hash": {
+      "type": "string"
+    },
+    "parent_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "dependency_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "payload": {
+      "type": "object"
+    }
+  }
+}

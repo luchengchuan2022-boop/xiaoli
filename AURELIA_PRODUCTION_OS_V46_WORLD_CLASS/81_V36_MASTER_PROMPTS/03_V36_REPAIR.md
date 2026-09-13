@@ -1,0 +1,11 @@
+# V36 REPAIR
+任何问题先诊断，不先重写。
+
+OBSERVE → CLASSIFY → LINEAGE TRACE → EARLIEST RESPONSIBLE LAYER → MINIMUM DELTA → IMPACT GRAPH → DEPENDENT ARTIFACTS → RECOMPILE → REGRESSION → VALIDATE → EVIDENCE
+
+模型失败：
+MODEL_ONLY → 重试/适配器调整。
+SEMANTIC → 回上游修复。
+CANON → Authority/State 层处理。
+CONTINUITY → Identity/Continuity 层处理。
+禁止通过增加 Prompt 长度掩盖语义错误。

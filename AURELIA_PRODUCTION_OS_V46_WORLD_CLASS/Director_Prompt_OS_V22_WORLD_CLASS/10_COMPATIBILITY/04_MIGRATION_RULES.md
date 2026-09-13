@@ -1,0 +1,11 @@
+# MIGRATION RULES
+
+旧版本迁移：
+DISCOVER → MAP → CLASSIFY → DIFF → VALIDATE → STAGE → AUTHORIZE → MIGRATE → VERIFY
+
+旧规则不能因为“看起来更合理”被静默修改。
+
+对于冲突：
+KEEP BOTH → MARK CONFLICT → REQUEST DECISION
+
+历史数据永不因为升级而被覆盖成“新真相”。

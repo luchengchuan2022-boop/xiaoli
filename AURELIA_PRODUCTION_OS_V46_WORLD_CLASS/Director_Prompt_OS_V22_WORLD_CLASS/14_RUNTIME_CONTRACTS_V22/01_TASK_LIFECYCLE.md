@@ -1,0 +1,8 @@
+# V22 Task Lifecycle Contract
+
+`CREATED → CONTEXT_READY → AUTHORIZED → PLANNED → COMPILED → PREFLIGHTED → EXECUTING → OBSERVED → VALIDATING → READY_TO_COMMIT → COMMITTED → RELEASED`
+
+Terminal/error states:
+`BLOCKED, REJECTED, QUARANTINED, FAILED_RECOVERABLE, FAILED_INDETERMINATE`
+
+A task cannot skip a semantic gate merely because a model returned text quickly.

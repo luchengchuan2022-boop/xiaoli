@@ -1,0 +1,94 @@
+{
+  "SemanticContractV43": {
+    "required": [
+      "contract_id",
+      "aggregate_id",
+      "base_version",
+      "authority",
+      "preconditions",
+      "protected_semantics",
+      "delta",
+      "postconditions",
+      "invariants",
+      "evidence_requirements",
+      "provenance"
+    ]
+  },
+  "CreativeTransactionV43": {
+    "required": [
+      "transaction_id",
+      "base_version",
+      "candidate_version",
+      "status",
+      "idempotency_key",
+      "changes",
+      "proof_bundle",
+      "validation"
+    ]
+  },
+  "ProductionAtomV43": {
+    "required": [
+      "atom_id",
+      "exact_duration_seconds",
+      "start_state",
+      "dramatic_purpose",
+      "beat",
+      "emotional_trajectory",
+      "audience_attention",
+      "shots",
+      "keyframes",
+      "image_prompts",
+      "video_prompts",
+      "continuity",
+      "end_state",
+      "proof_bundle",
+      "manifest"
+    ]
+  },
+  "PromptASTV43": {
+    "required": [
+      "root_id",
+      "semantic_source_refs",
+      "intent",
+      "performance",
+      "camera",
+      "visual",
+      "motion",
+      "negative_constraints",
+      "continuity"
+    ]
+  },
+  "ProofBundleV43": {
+    "required": [
+      "truth_proof",
+      "state_proof",
+      "causal_proof",
+      "character_proof",
+      "relationship_proof",
+      "audience_proof",
+      "cinematic_proof",
+      "continuity_proof",
+      "production_proof"
+    ]
+  },
+  "ProjectionV43": {
+    "required": [
+      "projection_id",
+      "source_event_version",
+      "projection_version",
+      "projection_hash",
+      "invariant_status"
+    ]
+  },
+  "ReplayTraceV43": {
+    "required": [
+      "request_id",
+      "context_hash",
+      "query_hash",
+      "decision_hash",
+      "ast_hash",
+      "package_hash",
+      "first_divergence"
+    ]
+  }
+}

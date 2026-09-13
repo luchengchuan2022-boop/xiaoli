@@ -1,0 +1,18 @@
+{
+  "version": "V36",
+  "contracts": [
+    "CreativeDecisionV36",
+    "NarrativePlanV36",
+    "WorldSimulationV36",
+    "CharacterChoiceV36",
+    "RelationshipDeltaV36",
+    "AudienceModelV36",
+    "DramaticDynamicsV36",
+    "CinematicPlanV36",
+    "ProductionAtomV36",
+    "SelfAuditV36",
+    "LongformHealthV36",
+    "EvidenceV36",
+    "RecoveryPlanV36"
+  ]
+}

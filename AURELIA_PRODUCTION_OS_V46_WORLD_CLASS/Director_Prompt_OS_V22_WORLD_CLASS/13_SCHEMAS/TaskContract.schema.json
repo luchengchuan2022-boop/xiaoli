@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "required": [
+    "task_id",
+    "mode",
+    "project_id",
+    "input_refs",
+    "expected_output",
+    "authority_context"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "mode": {
+      "enum": [
+        "CREATE",
+        "CONTINUE",
+        "COMPILE",
+        "REPAIR",
+        "REVIEW",
+        "PLAN",
+        "WRITEBACK",
+        "MIGRATE",
+        "RECOVER"
+      ]
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "input_refs": {
+      "type": "array"
+    },
+    "expected_output": {
+      "type": "array"
+    },
+    "authority_context": {
+      "type": "object"
+    }
+  }
+}

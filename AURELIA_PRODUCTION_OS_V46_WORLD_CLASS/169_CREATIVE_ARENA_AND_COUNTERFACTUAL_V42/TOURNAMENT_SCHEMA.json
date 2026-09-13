@@ -1,0 +1,1 @@
+{"type":"CreativeTournamentV42","required":["tournament_id","frozen_context_hash","baseline_id","candidate_ids","evaluation_axes","review_records","selection","rationale"],"baseline_immutable":true}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V28 SemanticObject",
+  "type": "object",
+  "required": [
+    "semanticId",
+    "objectType",
+    "meaning",
+    "authority",
+    "provenance"
+  ],
+  "properties": {
+    "semanticId": {
+      "type": "string"
+    },
+    "objectType": {
+      "type": "string"
+    },
+    "meaning": {
+      "type": "object"
+    },
+    "authority": {
+      "type": "string"
+    },
+    "state": {
+      "type": "object"
+    },
+    "provenance": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    }
+  }
+}

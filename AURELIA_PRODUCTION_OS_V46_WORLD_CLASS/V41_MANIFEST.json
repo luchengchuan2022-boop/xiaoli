@@ -1,0 +1,37 @@
+{
+  "version": "V41",
+  "lineage": "V40",
+  "root": "AURELIA_PRODUCTION_OS_V41_WORLD_CLASS",
+  "new_modules": [
+    "147_CREATIVE_GRAPH_INTELLIGENCE_KERNEL_V41",
+    "148_SEMANTIC_EVENT_SOURCING_V41",
+    "149_TEMPORAL_CAUSAL_MODEL_V41",
+    "150_CONTEXT_COMPILATION_ENGINE_V41",
+    "151_CREATIVE_AUTHORITY_AND_POLICY_V41",
+    "152_CHARACTER_KNOWLEDGE_BELIEF_MEMORY_V41",
+    "153_RELATIONSHIP_DYNAMICS_V41",
+    "154_AUDIENCE_STATE_MACHINE_V41",
+    "155_NARRATIVE_PLANNING_SEARCH_V41",
+    "156_CINEMATIC_COMPILATION_CONFORMANCE_V41",
+    "157_PRODUCTION_PACKAGE_EXECUTION_V41",
+    "158_PROVENANCE_EVIDENCE_GRAPH_V41",
+    "159_SELF_HEALING_REGRESSION_V41",
+    "160_LONGFORM_SCALE_GOVERNOR_V41",
+    "161_MASTER_PROMPTS_V41",
+    "162_SCHEMAS_V41",
+    "163_ACCEPTANCE_V41",
+    "164_JAVA_HANDOFF_V41",
+    "165_V41_CERTIFICATION"
+  ],
+  "hard_contracts": [
+    "15.00s delivery atom",
+    "Canon authority hierarchy",
+    "event-sourced committed state",
+    "dependency-closed context",
+    "bidirectional provenance",
+    "semantic compilation",
+    "proof-carrying production package",
+    "adversarial regression",
+    "Java implementation deferred"
+  ]
+}

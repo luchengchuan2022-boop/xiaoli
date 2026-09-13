@@ -1,0 +1,6 @@
+# V23 Object Type System
+
+Minimum canonical families:
+`FACT, RULE, WORLD, CHARACTER, RELATIONSHIP, TIMELINE_EVENT, KNOWLEDGE, EMOTION, DRAMATIC_INTENT, BEAT, SCENE, SHOT, PERFORMANCE, STAGING, CAMERA, LIGHTING, AUDIO, VFX, ASSET, CONSTRAINT, CONTEXT_PACKET, IR, PROMPT_AST, TASK, EVENT, PATCH, EVIDENCE, VALIDATION, PACKAGE, RELEASE`
+
+New types must declare identity, authority, provenance, lifecycle, semantic hash, and dependency semantics.

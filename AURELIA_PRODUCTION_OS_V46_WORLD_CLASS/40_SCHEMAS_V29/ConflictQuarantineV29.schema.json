@@ -1,0 +1,11 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"ConflictQuarantineV29",
+  "type":"object",
+  "required":["conflict_id","objects","sources","impact","blocked_operations"],
+  "properties":{
+    "conflict_id":{"type":"string"},"objects":{"type":"array","items":{"type":"string"}},
+    "sources":{"type":"array","items":{"type":"string"}},"impact":{"type":"array","items":{"type":"string"}},
+    "blocked_operations":{"type":"array","items":{"type":"string"}}
+  }
+}

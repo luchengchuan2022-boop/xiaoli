@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V22 Canonical Object",
+  "type": "object",
+  "required": ["object_id","object_type","schema_version","revision","authority","status","provenance","semantic_hash"],
+  "properties": {
+    "object_id": {"type":"string","minLength":1},
+    "object_type": {"type":"string","minLength":1},
+    "schema_version": {"type":"string","minLength":1},
+    "revision": {"type":"integer","minimum":0},
+    "authority": {"type":"string"},
+    "status": {"type":"string"},
+    "provenance": {"type":"object"},
+    "semantic_hash": {"type":"string","minLength":1},
+    "created_from": {"type":["string","null"]},
+    "derived_from": {"type":"array","items":{"type":"string"}},
+    "dependencies": {"type":"array","items":{"type":"string"}},
+    "payload": {"type":"object"}
+  },
+  "additionalProperties": true
+}

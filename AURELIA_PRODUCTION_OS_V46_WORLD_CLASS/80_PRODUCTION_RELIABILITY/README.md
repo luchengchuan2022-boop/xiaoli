@@ -1,0 +1,7 @@
+# V36 生产可靠性
+生产系统必须支持：
+IDEMPOTENCY / DETERMINISM_WHERE_REQUIRED / PROVENANCE / HASH / VALIDATION / RETRY_CLASSIFICATION / RECOVERY / REGRESSION / REPLAY / AUDIT_TRAIL
+
+语义编译失败与模型生成失败必须分离。
+同一语义问题不得通过无限重试模型解决。
+任何模型观察都不能直接写 Truth。

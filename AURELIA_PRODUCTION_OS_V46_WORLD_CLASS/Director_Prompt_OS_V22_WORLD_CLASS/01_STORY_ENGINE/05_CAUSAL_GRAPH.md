@@ -1,0 +1,14 @@
+# CAUSAL GRAPH
+
+剧情不是事件列表。
+
+维护：
+CAUSE
+→ MOTIVATION
+→ ACTION
+→ IMMEDIATE RESULT
+→ STATE CHANGE
+→ DOWNSTREAM CONSEQUENCE
+
+任何重大事件必须尽可能能追溯到原因。
+“为了下一集所以发生”不是合法因果。

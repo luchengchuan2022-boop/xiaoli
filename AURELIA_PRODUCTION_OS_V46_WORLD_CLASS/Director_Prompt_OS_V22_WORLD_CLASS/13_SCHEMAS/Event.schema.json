@@ -1,0 +1,31 @@
+{
+  "type": "object",
+  "required": [
+    "event_id",
+    "event_type",
+    "aggregate_id",
+    "version",
+    "payload",
+    "timestamp"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string"
+    },
+    "event_type": {
+      "type": "string"
+    },
+    "aggregate_id": {
+      "type": "string"
+    },
+    "version": {
+      "type": "integer"
+    },
+    "payload": {
+      "type": "object"
+    },
+    "timestamp": {
+      "type": "string"
+    }
+  }
+}

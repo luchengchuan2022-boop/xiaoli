@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProductionAtomV41",
+  "type": "object",
+  "properties": {
+    "duration_seconds": {
+      "const": 15.0
+    },
+    "start_state": {
+      "type": "object"
+    },
+    "end_state": {
+      "type": "object"
+    },
+    "purpose": {
+      "type": "string"
+    },
+    "shots": {
+      "type": "array"
+    },
+    "image_prompts": {
+      "type": "array"
+    },
+    "video_prompts": {
+      "type": "array"
+    },
+    "continuity": {
+      "type": "object"
+    },
+    "validation": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": true
+}

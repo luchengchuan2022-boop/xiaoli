@@ -1,0 +1,5 @@
+# V24 Studio Role Matrix
+
+Roles: `SHOWRUNNER / HEAD_WRITER / STORY_EDITOR / SCREENWRITER / DIRECTOR / CINEMATOGRAPHER / ANIMATION_SUPERVISOR / CHARACTER_ANIMATION / BACKGROUND_ART / VFX / SOUND / CONTINUITY / ASSET / PRODUCTION_PLANNER / QA / RELIABILITY`.
+
+Role authority is scoped by artifact type and change class. No role is globally omnipotent.

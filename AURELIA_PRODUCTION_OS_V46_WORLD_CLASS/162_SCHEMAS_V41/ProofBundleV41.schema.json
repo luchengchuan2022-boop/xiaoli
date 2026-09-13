@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ProofBundleV41",
+  "type": "object",
+  "properties": {
+    "claims": {
+      "type": "array"
+    },
+    "provenance_edges": {
+      "type": "array"
+    },
+    "compiler_trace": {
+      "type": "array"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "validations": {
+      "type": "array"
+    },
+    "hashes": {
+      "type": "object"
+    },
+    "dependency_closure": {
+      "type": "array"
+    }
+  },
+  "additionalProperties": true
+}

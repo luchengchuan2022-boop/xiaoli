@@ -1,0 +1,15 @@
+# EMOTIONAL STATE MACHINE
+
+角色情绪不是形容词。
+
+建议结构：
+BASELINE
+→ TRIGGER
+→ APPRAISAL
+→ INTERNAL_CONFLICT
+→ MICRO_REACTION
+→ DECISION
+→ EXPRESSION
+→ AFTEREFFECT
+
+视觉表演必须尽量来自情绪状态转移，而不是随机“可爱/悲伤/震惊”。

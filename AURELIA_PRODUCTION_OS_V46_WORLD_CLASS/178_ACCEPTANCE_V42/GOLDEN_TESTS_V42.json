@@ -1,0 +1,24 @@
+{
+  "version": "V42",
+  "fail_closed": true,
+  "tests": [
+    "single_identity",
+    "truth_mutation_block",
+    "event_authorization",
+    "causal_gate",
+    "conflict_quarantine",
+    "context_closure",
+    "upstream_trace",
+    "downstream_impact",
+    "atom_15_seconds",
+    "knowledge_firewall",
+    "relationship_earnedness",
+    "reveal_fairness",
+    "world_rule_blast_radius",
+    "semantic_regression",
+    "replay",
+    "proof_closure",
+    "idempotency",
+    "authority_boundary"
+  ]
+}

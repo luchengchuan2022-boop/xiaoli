@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "v24/TaskContract",
+  "type": "object",
+  "required": [
+    "task_id",
+    "mode",
+    "goal",
+    "input_refs",
+    "authority_scope",
+    "allowed_mutations",
+    "forbidden_mutations",
+    "required_outputs",
+    "gates",
+    "failure_policy",
+    "commit_policy"
+  ],
+  "properties": {
+    "task_id": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "input_refs": {
+      "type": "array"
+    },
+    "authority_scope": {
+      "type": "array"
+    },
+    "allowed_mutations": {
+      "type": "array"
+    },
+    "forbidden_mutations": {
+      "type": "array"
+    },
+    "required_outputs": {
+      "type": "array"
+    },
+    "gates": {
+      "type": "array"
+    },
+    "failure_policy": {
+      "type": "object"
+    },
+    "commit_policy": {
+      "type": "object"
+    },
+    "idempotency_key": {
+      "type": "string"
+    }
+  }
+}

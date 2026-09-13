@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "required": [
+    "manifest",
+    "story",
+    "visual",
+    "continuity",
+    "validation",
+    "evidence",
+    "state_delta"
+  ],
+  "properties": {
+    "manifest": {
+      "type": "object"
+    },
+    "story": {
+      "type": "object"
+    },
+    "visual": {
+      "type": "object"
+    },
+    "continuity": {
+      "type": "object"
+    },
+    "validation": {
+      "type": "object"
+    },
+    "evidence": {
+      "type": "array"
+    },
+    "state_delta": {
+      "type": "object"
+    }
+  }
+}

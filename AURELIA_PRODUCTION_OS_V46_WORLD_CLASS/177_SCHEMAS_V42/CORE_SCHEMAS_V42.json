@@ -1,0 +1,30 @@
+{
+  "version": "V42",
+  "schemas": [
+    "CreativeObjectV42",
+    "CreativeEdgeV42",
+    "EventV42",
+    "WorldStateV42",
+    "CharacterStateV42",
+    "RelationshipStateV42",
+    "AudienceStateV42",
+    "PromiseV42",
+    "DebtV42",
+    "DecisionV42",
+    "ContextManifestV42",
+    "CreativeTournamentV42",
+    "ProductionAtomV42",
+    "PromptASTV42",
+    "ProofBundleV42",
+    "ReplayContractV42",
+    "ChangeRequestV42"
+  ],
+  "principles": [
+    "single semantic identity",
+    "event-authorized mutation",
+    "typed provenance",
+    "read-only queries by default",
+    "semantic regression",
+    "proof closure"
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "version": "V42",
+  "lineage": "V41",
+  "root": "AURELIA_PRODUCTION_OS_V42_WORLD_CLASS",
+  "modules": [
+    "163_CREATIVE_GRAPH_RUNTIME_SPEC_V42",
+    "164_CREATIVE_GRAPH_QUERY_LANGUAGE_V42",
+    "165_SEMANTIC_EVENT_STATE_TIME_V42",
+    "166_AUTHORITY_POLICY_AND_CHANGE_CONTROL_V42",
+    "167_MINIMUM_SUFFICIENT_CONTEXT_V42",
+    "168_BIDIRECTIONAL_PROVENANCE_AND_PROOF_V42",
+    "169_CREATIVE_ARENA_AND_COUNTERFACTUAL_V42",
+    "170_STORY_GENOME_AND_EVOLUTION_V42",
+    "171_CROSS_SCALE_NARRATIVE_HEALTH_V42",
+    "172_CINEMATIC_COMPILER_AND_PROMPT_AST_V42",
+    "173_15S_FILM_ATOM_AND_CONTINUITY_V42",
+    "174_AUTONOMOUS_PLANNING_AND_STOP_CONDITIONS_V42",
+    "175_SEMANTIC_REGRESSION_AND_REPLAY_V42",
+    "176_V42_MASTER_PROMPTS",
+    "177_SCHEMAS_V42",
+    "178_ACCEPTANCE_V42",
+    "179_JAVA_HANDOFF_V42",
+    "180_V42_CERTIFICATION"
+  ],
+  "principles": [
+    "single semantic identity",
+    "authorized event mutation",
+    "typed authority",
+    "minimum sufficient context",
+    "bidirectional provenance",
+    "proof-carrying production",
+    "semantic regression",
+    "replayability",
+    "15.00 second delivery atom"
+  ],
+  "java_implementation": "deferred"
+}

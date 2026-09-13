@@ -1,0 +1,27 @@
+{
+  "spec_version": "24.0.0",
+  "status": "ACTIVE",
+  "java_implementation": false,
+  "file_count": 343,
+  "canonical_roots": [
+    "00_KERNEL_V24",
+    "01_PRODUCTION_LANGUAGE_V24",
+    "02_CANONICAL_MODEL_V24",
+    "03_UNIFIED_IR_V24",
+    "04_COMPILER_V24",
+    "05_AGENT_OS_V24",
+    "06_CONTEXT_MEMORY_V24",
+    "07_LONGFORM_V24",
+    "08_CINEMATIC_V24",
+    "09_PRODUCTION_PACKAGE_V24",
+    "10_STATE_EVENT_V24",
+    "11_RELIABILITY_V24",
+    "12_QA_V24",
+    "13_AURELIA_PROFILE_V24",
+    "14_RUNTIME_BOUNDARY_V24",
+    "15_MASTER_PROMPTS_V24",
+    "16_ACCEPTANCE_V24",
+    "17_SCHEMAS_V24"
+  ],
+  "compatibility_reference": "V23_COMPATIBILITY_REFERENCE.md"
+}

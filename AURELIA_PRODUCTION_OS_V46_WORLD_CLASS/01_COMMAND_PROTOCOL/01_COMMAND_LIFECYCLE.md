@@ -1,0 +1,21 @@
+# COMMAND LIFECYCLE
+
+RECEIVED
+→ VALIDATED
+→ AUTHORIZED
+→ PLANNED
+→ EXECUTING
+→ OBSERVED
+→ VERIFIED
+→ COMMITTING
+→ COMMITTED
+→ RELEASED
+
+Exceptional:
+REJECTED
+BLOCKED
+QUARANTINED
+FAILED
+INDETERMINATE
+
+The state of a command is not the same as the state of the story/world.

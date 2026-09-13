@@ -1,0 +1,12 @@
+# VERSIONING
+
+必须独立版本：
+canon_version
+state_version
+schema_version
+compiler_version
+profile_version
+prompt_renderer_version
+model_adapter_version
+
+任何版本变化都不得静默改变历史事实。

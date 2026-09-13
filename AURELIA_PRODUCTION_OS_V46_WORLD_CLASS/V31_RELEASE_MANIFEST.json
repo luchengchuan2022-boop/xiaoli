@@ -1,0 +1,17 @@
+{
+  "version": "V31",
+  "parent": "V30",
+  "file_count": 716,
+  "critical_layers": [
+    "narrative",
+    "world_simulation",
+    "character_agency",
+    "relationship",
+    "audience",
+    "cinematic_language",
+    "production_compiler",
+    "longform",
+    "governance"
+  ],
+  "java_scope": "CONTRACT_ONLY"
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "v24/PromptAST",
+  "type": "object",
+  "required": [
+    "prompt_ast_id",
+    "source_ir_ref",
+    "subject",
+    "action",
+    "timing"
+  ],
+  "properties": {
+    "prompt_ast_id": {
+      "type": "string"
+    },
+    "source_ir_ref": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "array"
+    },
+    "action": {
+      "type": "array"
+    },
+    "timing": {
+      "type": "object"
+    },
+    "camera": {
+      "type": "object"
+    },
+    "performance": {
+      "type": "object"
+    },
+    "lighting": {
+      "type": "object"
+    },
+    "environment": {
+      "type": "object"
+    },
+    "audio": {
+      "type": "object"
+    },
+    "vfx": {
+      "type": "object"
+    },
+    "continuity": {
+      "type": "array"
+    },
+    "constraints": {
+      "type": "array"
+    },
+    "negative": {
+      "type": "array"
+    }
+  }
+}

@@ -1,0 +1,1 @@
+{"type":"EventV42","required":["event_id","event_type","occurred_at","authority_ref","payload_hash","causal_refs","provenance","commit_status"],"immutable":true}

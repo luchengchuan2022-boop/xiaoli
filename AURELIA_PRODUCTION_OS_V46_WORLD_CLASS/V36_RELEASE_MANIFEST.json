@@ -1,0 +1,15 @@
+{
+  "version": "V36",
+  "base": "V35",
+  "status": "WORLD_CLASS_TARGET",
+  "java_implementation": "DEFERRED",
+  "critical_principles": [
+    "truth_before_novelty",
+    "meaning_before_spectacle",
+    "character_choice_before_plot_convenience",
+    "performance_before_prompt",
+    "continuity_before_decoration",
+    "evidence_before_confidence",
+    "longform_value_before_local_shock"
+  ]
+}

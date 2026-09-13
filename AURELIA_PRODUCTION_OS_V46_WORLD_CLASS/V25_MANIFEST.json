@@ -1,0 +1,28 @@
+{
+  "spec_version": "V27",
+  "status": "ACTIVE_PRODUCTION_LANGUAGE_AND_CONTRACT_SYSTEM",
+  "implementation": "NONE",
+  "purpose": "Define a compact, typed Production Language and Contract System above V26's executable specification, ready for future Java implementation.",
+  "north_star": "ONE MEANING -> ONE CANONICAL OBJECT -> ONE AUTHORITY PATH -> ONE COMMITTED STATE -> ONE CONTEXT PACKET -> ONE IR -> ONE COMPILER PATH -> ONE PRODUCTION PACKAGE -> ONE EVIDENCE CHAIN -> ONE VERIFIED COMMIT",
+  "runtime_target": "future Java Runtime",
+  "production_scale": [
+    "160",
+    "320",
+    "640",
+    "1600",
+    "3200",
+    "6400",
+    "8000+"
+  ],
+  "delivery_atom": "15-second Cinematic Delivery Atom",
+  "java_source_included": false,
+  "authoritative_precedence": [
+    "V27_KERNEL",
+    "V27_CONTRACTS",
+    "ACTIVE_PROFILE",
+    "AUTHORIZED_CANON_STATE",
+    "V26_COMPATIBILITY",
+    "LEGACY_REFERENCE",
+    "MODEL_OUTPUT"
+  ]
+}

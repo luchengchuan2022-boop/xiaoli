@@ -1,0 +1,20 @@
+# Future Service Contracts
+
+AuthorityService
+StateService
+GraphQueryService
+ImpactAnalysisService
+SemanticDiffService
+DecisionService
+ArenaService
+NarrativeHealthService
+CinematicCompilerService
+PromptCompilerService
+ModelCapabilityService
+ObservationService
+ValidationService
+ProofService
+ProductionPackageService
+RecoveryService
+
+All services communicate through typed immutable contracts and explicit versioning.

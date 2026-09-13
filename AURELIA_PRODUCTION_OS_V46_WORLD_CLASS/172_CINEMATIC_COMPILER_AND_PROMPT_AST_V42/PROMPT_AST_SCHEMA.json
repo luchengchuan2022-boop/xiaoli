@@ -1,0 +1,1 @@
+{"type":"PromptASTV42","required":["ast_id","source_semantics","performance","staging","camera","lighting","keyframes","motion","constraints","provenance","semantic_hash"]}
